@@ -99,18 +99,15 @@ main {
   flex-grow: 1;
   overflow-y: auto;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
-/* section {
-  height: 30%;
-  position: absolute;
+section {
+  flex: 1;
 }
- */
+
 #section1 {
-  position: absolute;
-  top: 450px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -169,6 +166,10 @@ section p {
   cursor: pointer;
   margin: 20px;
   animation: backButton 1s infinite ease;
+}
+
+#section4 h1 {
+  width: 100%;
 }
 
 @keyframes backButton {
